@@ -5,7 +5,7 @@
 	多行：#= 
 			...
 			...
-		  =#
+	     =#
 
 運算：
 	+,-,*,^,%：預設變數型態為Int64
@@ -15,5 +15,5 @@ convert(T,x)：把x這個變數的型態轉成T這種Type
 	e.g. convert(Int,3.0) -> 3
 	e.g. convert(Int,3.5) -> Error, 不知要進位或捨去
 	※ convert(T,x)不能把string轉成數字型態，要用parse(T,object)
-	  e.g. convert(Int64,"1") -> Error
-		   parse(Int64,"1") -> 1
+		e.g. convert(Int64,"1") -> Error
+		     parse(Int64,"1") -> 1
